@@ -7,3 +7,25 @@ Display tasks in a list with AI-suggested priorities (high, low, medium).
 Style the app with Bulma for a clean, responsive UI.
 Store tasks in localStorage for persistence.
 Fetch AI-generated priority suggestions (low, medium, high) for task descriptions.
+
+I did this project because I wanted to learn how to;
+Create and compose Lit Element web components.
+Use TypeScript for type-safe data handling.
+Apply Bulma classes for styling without custom CSS.
+
+This is my project structure 
+task-manager/
+├── src/
+│   ├── components/
+│   │   ├── task-form.ts
+│   │   ├── task-item.ts
+│   │   ├── task-list.ts
+│   ├── services/
+│   │   ├── task-service.ts
+│   ├── types/
+│   │   ├── task.ts
+│   ├── my-app.ts
+├── index.html
+├── package.json
+|__vite.config.ts
+├── tsconfig.json
